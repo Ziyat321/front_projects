@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 100%;
+}
+
+
+body > div{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .7);
+}
+
+.wrap{
+
+}
+
+.menu{
+    height: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    height: unset;
+}
+
+a::first-letter{
+    color: red;
+    height: unset;
+}
+
+.red-block{
+    background-color: red;
+    margin: 0 270px 0 5px;
+    height: 10px;
+    transition-duration: 1s;
+}
+
+.menu:hover .red-block{
+    margin-right: 0;
+}
